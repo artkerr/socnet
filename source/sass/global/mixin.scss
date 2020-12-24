@@ -31,3 +31,9 @@
   font-weight: 600;
 }
 
+@mixin post {
+  background-color: $white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+

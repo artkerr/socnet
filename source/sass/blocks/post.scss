@@ -1,0 +1,34 @@
+.post {
+  @include post;
+  padding: 16px;
+
+  .user {
+    align-items: start;
+  }
+
+  .user__name {
+    font-size: 14px;
+    font-weight: 600;
+    color: $cobalt;
+  }
+
+  .user__photo {
+    width: 48px;
+    margin-right: 12px;
+  }
+
+  .user__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .user__set {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .user__icon {
+    fill: $suva-grey;
+  }
+}
