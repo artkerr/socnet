@@ -15,7 +15,7 @@
       <nav class="header__main-nav main-nav">
         <div class="main-nav__user user">
           <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
-          <span class="user__name">Mateusznpm</span>
+          <span class="user__name">Denis</span>
         </div>
         <ul class="main-nav__site-list site-list">
           <li class="site-list__item">
@@ -58,11 +58,11 @@
       </nav>
     </div>
   </header>
-  <main class="page-main main container">
-    <section class="main__left-sidebar left-sidebar">
+  <main class="page-main container">
+    <section class="page-main__left-sidebar left-sidebar">
       <div class="left-sidebar__user user">
         <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
-        <span class="user__name">Mateusz Wierzbicki</span>
+        <span class="user__name">Denis Vladimirov</span>
       </div>
       <ul class="left-sidebar__user user-nav">
         <li class="user-nav__item">
@@ -76,7 +76,7 @@
         <li class="user-nav__item">
           <a href="#" class="user-nav__link">
             <svg class="user-nav__icon" width="22" height="22">
-              <use xlink:href="img/sprite.svg#icon-message"></use>
+              <use xlink:href="img/sprite.svg#icon-mes"></use>
             </svg>
             Messages
           </a>
@@ -127,7 +127,6 @@
           </li>
         </ul>
       </div>
-
       <div class="left-sidebar__explore explore">
         <h3 class="explore__title">Explore</h3>
         <ul class="explore__list">
@@ -165,14 +164,36 @@
           </li>
         </ul>
       </div>
-
-
     </section>
 
-    <section class="main__user-content user-content">
+    <section class="page-main__user-content user-content">
+      <div class="user-content__new-post new-post">
+        <h2 class="new-post__title">Create post</h2>
+        <textarea class="new-post__textarea" name="new-post" id="new-post" placeholder="What’s on your mind, Denis?"></textarea>
+        <div class="new-post__buttons">
+          <button class="new-post__btn" type="button">
+            <svg class="new-post__icon" width="22" height="22">
+              <use xlink:href="img/sprite.svg#icon-photo"></use>
+            </svg>
+            Photo/Video
+          </button>
+          <button class="new-post__btn" type="button">
+            <svg class="new-post__icon" width="22" height="22">
+              <use xlink:href="img/sprite.svg#icon-friend"></use>
+            </svg>
+            Tag friends
+          </button>
+          <button class="new-post__btn" type="button">
+            <svg class="new-post__icon" width="22" height="22">
+              <use xlink:href="img/sprite.svg#icon-smile"></use>
+            </svg>
+            Feeling/Activ...
+          </button>
+        </div>
+      </div>
 
     </section>
-    <section class="main__right-sidebar right-sidebar">
+    <section class="page-main__right-sidebar right-sidebar">
 
     </section>
 

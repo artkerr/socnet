@@ -1,0 +1,45 @@
+.new-post {
+  background-color: $white;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.new-post__title {
+  font-size: 14px;
+  font-weight: 600;
+  color: $zambezi;
+  padding: 9px 16px;
+  background-color: $whisper;
+  border-bottom: 1px solid $gainsboro;
+}
+
+.new-post__textarea {
+  width: 95%;
+  min-height: 75px;
+  border-bottom: 1px solid $whisper-8;
+  resize: none;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
+  background: url("../../img/user.png") no-repeat;
+  background-position: 5px 5px;
+  position: relative;
+  padding: 18px 65px;
+}
+
+.new-post__buttons {
+  padding: 16px;
+}
+
+.new-post__btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 48px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.new-post__icon {
+  margin-right: 8px;
+}
