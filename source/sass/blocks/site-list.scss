@@ -1,0 +1,32 @@
+.site-list {
+  display: flex;
+  margin: 0 12px;
+}
+
+.site-list__item {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+
+
+  &::before ,
+  &:last-child::after {
+    content: "";
+    width: 1px;
+    height: 16px;
+    background-color: $smalt;
+    margin-right: 12px;
+  }
+
+  &:last-child::after {
+    margin-right: 0;
+    margin-left: 12px;
+  }
+
+}
+
+.site-list__link {
+  color: $white;
+  font-weight: 600;
+  line-height: 22px;
+}

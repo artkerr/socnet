@@ -1,0 +1,33 @@
+@mixin nav-item {
+  max-width: 192px;
+  padding: 5px 8px;
+
+  &:hover {
+    background-color: $white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
+
+@mixin nav-link {
+  display: flex;
+  align-items: center;
+  color: $zambezi;
+
+  &:hover {
+    color: $nero;
+    font-weight: 600;
+  }
+}
+
+@mixin nav-icon {
+  margin-right: 8px;
+  fill: $dodger-blue;
+}
+
+@mixin nav-title {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+}
+

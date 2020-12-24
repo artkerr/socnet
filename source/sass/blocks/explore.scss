@@ -1,0 +1,16 @@
+.explore__title {
+  @include nav-title;
+}
+
+.explore__item {
+  @include nav-item;
+}
+
+.explore__link {
+  @include  nav-link;
+}
+
+.explore__icon {
+  @include  nav-icon;
+}
+

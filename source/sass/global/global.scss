@@ -2,9 +2,10 @@ body {
   margin: 0;
   padding: 0;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 1.38;
-
+  font-size: 14px;
+  line-height: 22px;
+  font-family: sans-serif;
+  background-color: $whisper;
 }
 
 *,
@@ -17,9 +18,18 @@ img {
   max-width: 100%;
   height: auto;
 }
+p {
+  margin: 0;
+}
 
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 input,
@@ -27,6 +37,7 @@ textarea,
 select,
 button {
   font: inherit;
+  border: none;
 }
 
 .visually-hidden {

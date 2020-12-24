@@ -6,18 +6,177 @@
   <link rel="stylesheet" href="css/style.min.css">
   <title>Document</title>
 </head>
-<body>
+<body class="page">
   <header class="page-header header">
-    <div class="header__wrapper">
+    <div class="header__wrapper container">
       <div class="header__search search">
-
+          <input type="search" class="search__input" placeholder="Search">
       </div>
-      <nav class="header__nav nav">
-
+      <nav class="header__main-nav main-nav">
+        <div class="main-nav__user user">
+          <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
+          <span class="user__name">Mateusznpm</span>
+        </div>
+        <ul class="main-nav__site-list site-list">
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">Home</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">Create</a>
+          </li>
+        </ul>
+        <ul class="main-nav__user-list user-list">
+          <li class="user-list__item user-list__item--active">
+            <a href="#" class="user-list__link">
+              <svg class="user-list__item-icon" width="18" height="19">
+                <use xlink:href="img/sprite.svg#icon-friends"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-list__item">
+            <a href="#" class="user-list__link">
+              <svg class="user-list__item-icon" width="21" height="21">
+                <use xlink:href="img/sprite.svg#icon-message"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-list__item">
+            <a href="#" class="user-list__link">
+              <svg class="user-list__item-icon" width="16" height="20">
+                <use xlink:href="img/sprite.svg#icon-bell"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="user-list__item">
+            <a href="#" class="user-list__link">
+              <svg class="user-list__item-icon" width="21" height="21">
+                <use xlink:href="img/sprite.svg#icon-info"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </nav>
     </div>
   </header>
+  <main class="page-main main container">
+    <section class="main__left-sidebar left-sidebar">
+      <div class="left-sidebar__user user">
+        <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
+        <span class="user__name">Mateusz Wierzbicki</span>
+      </div>
+      <ul class="left-sidebar__user user-nav">
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link">
+            <svg class="user-nav__icon" width="19" height="19">
+              <use xlink:href="img/sprite.svg#icon-news-feed"></use>
+            </svg>
+            News Feed
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link">
+            <svg class="user-nav__icon" width="22" height="22">
+              <use xlink:href="img/sprite.svg#icon-message"></use>
+            </svg>
+            Messages
+          </a>
+        </li>
+        <li class="user-nav__item">
+          <a href="#" class="user-nav__link">
+            <svg class="user-nav__icon" width="22" height="22">
+              <use xlink:href="img/sprite.svg#icon-marketplace"></use>
+            </svg>
+            Marketplace
+          </a>
+        </li>
+      </ul>
+      <div class="left-sidebar__shortcuts shortcuts">
+        <h3 class="shortcuts__title">Shortcuts</h3>
+        <ul class="shortcuts__list">
+          <li class="shortcuts__item">
+            <a href="#" class="shortcuts__link">
+              <svg class="shortcuts__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-trophy"></use>
+              </svg>
+              Product Design
+            </a>
+          </li>
+          <li class="shortcuts__item">
+            <a href="#" class="shortcuts__link">
+              <svg class="shortcuts__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-trophy"></use>
+              </svg>
+              UX & UI
+            </a>
+          </li>
+          <li class="shortcuts__item">
+            <a href="#" class="shortcuts__link">
+              <svg class="shortcuts__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-trophy"></use>
+              </svg>
+              Figma
+            </a>
+          </li>
+          <li class="shortcuts__item">
+            <a href="#" class="shortcuts__link">
+              <svg class="shortcuts__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-trophy"></use>
+              </svg>
+              Ant Design
+            </a>
+          </li>
+        </ul>
+      </div>
 
+      <div class="left-sidebar__explore explore">
+        <h3 class="explore__title">Explore</h3>
+        <ul class="explore__list">
+          <li class="explore__item">
+            <a href="#" class="explore__link">
+              <svg class="explore__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-flag"></use>
+              </svg>
+              Pages
+            </a>
+          </li>
+          <li class="explore__item">
+            <a href="#" class="explore__link">
+              <svg class="explore__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-headphones"></use>
+              </svg>
+              Group
+            </a>
+          </li>
+          <li class="explore__item">
+            <a href="#" class="explore__link">
+              <svg class="explore__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-home"></use>
+              </svg>
+              Events
+            </a>
+          </li>
+          <li class="explore__item">
+            <a href="#" class="explore__link">
+              <svg class="explore__icon" width="22" height="22">
+                <use xlink:href="img/sprite.svg#icon-rocket"></use>
+              </svg>
+              Games
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+    </section>
+
+    <section class="main__user-content user-content">
+
+    </section>
+    <section class="main__right-sidebar right-sidebar">
+
+    </section>
+
+  </main>
 </body>
 <script src="js/script.min.js"></script>
 </html>

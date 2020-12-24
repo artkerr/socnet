@@ -1,0 +1,16 @@
+.shortcuts__title {
+  @include nav-title;
+}
+
+.shortcuts__item {
+  @include nav-item;
+}
+
+.shortcuts__link {
+  @include  nav-link;
+}
+
+.shortcuts__icon {
+  @include  nav-icon;
+}
+
