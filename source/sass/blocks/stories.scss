@@ -6,6 +6,7 @@
 .stories__header {
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 }
 
 .stories__title {
@@ -32,4 +33,44 @@
 .stories__icon {
   fill: $cobalt;
   margin-right: 5px;
+}
+
+.stories__add,
+.stories__item {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.stories__add-btn {
+  width: 48px;
+  height: 48px;
+  background: url("/img/add-stories.png") no-repeat;
+  cursor: pointer;
+  margin-right: 12px;
+}
+
+.stories__add-link,
+.stories__item-link {
+  @include link;
+}
+
+.stories__add-text,
+.stories__item-text {
+  color: $suva-grey;
+}
+
+.stories__item-img {
+  margin-right: 12px;
+}
+
+.stories__list + .stories__link {
+  margin-left: 6px;
+
+  &::before {
+    content: "";
+    border: 6px solid transparent;
+    border-top: 6px solid $suva-grey;
+    margin-right: 10px;
+    cursor: pointer;
+  }
 }
