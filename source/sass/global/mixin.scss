@@ -36,3 +36,20 @@
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
+
+@mixin dot {
+  display: inline-flex;
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: $suva-grey;
+}
+
+@mixin link {
+  font-size: 14px;
+  font-weight: 600;
+  color: $cobalt;
+}
+
+

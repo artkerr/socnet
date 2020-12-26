@@ -1,0 +1,18 @@
+.birthday {
+  @include post;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center
+}
+
+.birthday__link {
+  @include link;
+}
+
+.birthday__span {
+  color: $zambezi;
+}
+
+.birthday__icon {
+  margin-right: 8px;
+}

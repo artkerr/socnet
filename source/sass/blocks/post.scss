@@ -1,15 +1,14 @@
 .post {
   @include post;
   padding: 16px;
+  padding-bottom: 8px;
 
   .user {
     align-items: start;
   }
 
   .user__name {
-    font-size: 14px;
-    font-weight: 600;
-    color: $cobalt;
+    @include link;
   }
 
   .user__photo {
@@ -18,16 +17,27 @@
   }
 
   .user__info {
+    min-width: 150px;
     display: flex;
     flex-direction: column;
   }
 
   .user__set {
-    color: $suva-grey;
     max-width: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .user__span {
+    color: $suva-grey;
+    display: flex;
+    align-items: center;
+
+    &::after {
+      @include dot;
+      margin-left: 9px;
+    }
   }
 
   .user__icon {
