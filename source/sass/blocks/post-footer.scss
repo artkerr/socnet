@@ -1,0 +1,20 @@
+.post-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid $whisper-8;
+  padding: 10px 60px;
+  padding-bottom: 0;
+}
+
+.post-footer__item {
+  display: flex;
+}
+
+.post-footer__icon {
+  fill: $zambezi;
+  margin-right: 10px;
+}
+
+.post-footer__text {
+  color: $zambezi;
+}

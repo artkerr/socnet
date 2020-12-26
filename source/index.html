@@ -15,7 +15,7 @@
       <nav class="header__main-nav main-nav">
         <div class="main-nav__user user">
           <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
-          <span class="user__name">Denis</span>
+          <a href="#" class="user__name">Denis</a>
         </div>
         <ul class="main-nav__site-list site-list">
           <li class="site-list__item">
@@ -62,7 +62,7 @@
     <section class="page-main__left-sidebar left-sidebar">
       <div class="left-sidebar__user user">
         <img src="img/user.png" class="user__photo" alt="User photo" width="32" height="32">
-        <span class="user__name">Denis Vladimirov</span>
+        <a href="#" class="user__name">Denis Vladimirov</a>
       </div>
       <ul class="left-sidebar__user user-nav">
         <li class="user-nav__item">
@@ -191,21 +191,110 @@
           </button>
         </div>
       </div>
-      <div class="user-content__post  post">
+      <article class="user-content__post post">
         <div class="post__user user">
           <img src="img/user.png" class="user__photo" alt="User photo" width="48" height="48">
           <div class="user__info">
-            <span class="user__name">Denis Vladimirov</span>
-            <span class="user__set">
+            <a href="" class="user__name">Denis Vladimirov</a>
+            <div class="user__set">
               3 hrs
               <svg class="user__icon" width="20" height="20">
                 <use xlink:href="img/sprite.svg#icon-setting"></use>
               </svg>
-            </span>
+            </div>
           </div>
         </div>
+        <div class="post__content">
+          <p class="post__text">Did you know that all of this was made using only components and styles from Ant Desing <br> System for Figma?</p>
+          <img class="post__img" src="img/post-img.jpg" alt="фото поста">
+        </div>
+        <div class="post__likes">
+            <svg class="post__likes-icon" width="16" height="16">
+              <use xlink:href="img/sprite.svg#icon-like"></use>
+            </svg>
+          <span class="post__likes-counter">23</span>
+        </div>
+        <div class="post__post-footer post-footer">
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-like"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Like</span>
+          </div>
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-message"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Comment</span>
+          </div>
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-share"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Share</span>
+          </div>
+        </div>
+      </article>
 
-      </div>
+      <article class="user-content__post post">
+        <div class="post__user user">
+          <img src="img/figma.jpg" class="user__photo" alt="User photo" width="48" height="48">
+          <div class="user__info">
+            <a href="" class="user__name">Figma</a>
+            <div class="user__set">
+              6 hrs
+              <svg class="user__icon" width="20" height="20">
+                <use xlink:href="img/sprite.svg#icon-setting"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="post__content">
+          <p class="post__text">
+            📙 Want to implement type in your design system in Figma? This guide covers everything you should consider, from choosing the right typography scale to naming and organizing your text styles.
+          </p>
+          <p class="post__text">Learn more: <a class="post__link" href="https://antforfigma.com">https://antforfigma.com</a></p>
+          <img class="post__img" src="img/post-img.jpg" alt="фото поста">
+        </div>
+        <div class="post__likes">
+            <svg class="post__likes-icon" width="16" height="16">
+              <use xlink:href="img/sprite.svg#icon-like"></use>
+            </svg>
+          <span class="post__likes-counter">43</span>
+        </div>
+        <div class="post__post-footer post-footer">
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-like"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Like</span>
+          </div>
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-message"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Comment</span>
+          </div>
+          <div class="post-footer__item">
+            <button type="button" class="post-footer__btn">
+              <svg class="post-footer__icon" width="19" height="19">
+                <use xlink:href="img/sprite.svg#icon-share"></use>
+              </svg>
+            </button>
+            <span class="post-footer__text">Share</span>
+          </div>
+        </div>
+      </article>
 
     </section>
     <section class="page-main__right-sidebar right-sidebar">

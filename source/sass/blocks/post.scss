@@ -23,6 +23,8 @@
   }
 
   .user__set {
+    color: $suva-grey;
+    max-width: 70px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,5 +32,53 @@
 
   .user__icon {
     fill: $suva-grey;
+    align-self: flex-end;
+    cursor: pointer;
   }
+}
+
+.post__user {
+  margin-bottom: 16px;
+}
+
+.post__content {
+  margin-bottom: 16px;
+}
+
+.post__text {
+  color: $zambezi;
+  margin-bottom: 16px;
+}
+
+.post__link {
+  color: $navy-blue;
+}
+
+.post__likes {
+  max-width: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+.post__likes-counter {
+  color: $suva-grey;
+}
+
+.post__likes-icon {
+  fill: $dodger-blue;
+  margin: auto;
+}
+
+.post__likes-btn {
+  width: 30px;
+  height: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.post-footer__btn {
+  background-color: transparent;
+  cursor: pointer;
 }

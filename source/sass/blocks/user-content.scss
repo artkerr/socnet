@@ -1,7 +1,11 @@
 .user-content {
-  min-width: 588px;
+  max-width: 588px;
 }
 
 .user-content__new-post {
+  margin-bottom: 16px;
+}
+
+.user-content__post {
   margin-bottom: 16px;
 }
