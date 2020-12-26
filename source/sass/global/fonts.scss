@@ -1,8 +1,19 @@
 @font-face {
-  font-family: "SFProDisplay-Regular";
-  src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff") format("woff"),
-       url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff2") format("woff2");
+  font-family: "SFProDisplay";
+  src:
+    url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff") format("woff"),
+    url("../fonts/FontsFree-Net-SFProDisplay-Regular.woff2") format("woff2");
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SFProDisplay";
+  src:
+    url("../fonts/FontsFree-Net-SFProDisplay-Bold.woff") format("woff"),
+    url("../fonts/FontsFree-Net-SFProDisplay-Bold.woff2") format("woff2");
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
